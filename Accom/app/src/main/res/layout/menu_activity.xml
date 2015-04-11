@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@mipmap/poster_image1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/image"
+        />
+
+    <Button
+        android:id="@+id/link_to_list"
+        android:text="Accomodation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/link_to_Advert"
+        android:text="Advertise Accomodation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/link_to_list"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
