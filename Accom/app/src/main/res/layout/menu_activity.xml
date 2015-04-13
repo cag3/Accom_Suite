@@ -4,16 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:src="@mipmap/poster_image1"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:id="@+id/image"
-        />
+    <LinearLayout android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip">
+
+        <ImageView
+            android:src="@mipmap/menu_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/image"/>
+
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/link_to_list"
-        android:text="Accomodation"
+        android:text="View Residence"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/image"
@@ -21,10 +30,15 @@
 
     <Button
         android:id="@+id/link_to_Advert"
-        android:text="Advertise Accomodation"
+        android:text="Register AD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/link_to_list"
         android:layout_marginTop="10dp"/>
 
+    <ImageView android:src="@drawable/foot_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/mid"/>
 </LinearLayout>

@@ -33,6 +33,10 @@
             android:name=".RegisterAdActivity"
             android:label="register an AD">
             </activity>
+        <provider
+            android:name=".provider.AccommodationContentProvider"
+            android:authorities="com.devstudio.mlabsa.accom.provider" />
+
 
     </application>
 

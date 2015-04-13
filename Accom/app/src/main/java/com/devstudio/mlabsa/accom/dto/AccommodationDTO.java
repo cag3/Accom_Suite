@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created by CodeTribe on 2015-04-11.
  */
 public class AccommodationDTO implements Serializable {
-    private Integer infoID;
+    private Integer accommodationID;
     private String fullName;
     private Integer phoneNumber;
     private String email;
@@ -19,8 +19,8 @@ public class AccommodationDTO implements Serializable {
     public AccommodationDTO() {
     }
 
-    public AccommodationDTO(Integer infoID, String fullName, Integer phoneNumber, String email, String address, String description, String dwellingType, Integer bedroom, float price) {
-        this.infoID = infoID;
+    public AccommodationDTO(Integer accommodationID, String fullName, Integer phoneNumber, String email, String address, String description, String dwellingType, Integer bedroom, float price) {
+        this.accommodationID = accommodationID;
         this.fullName = fullName;
         this.phoneNumber = phoneNumber;
         this.email = email;
@@ -31,12 +31,12 @@ public class AccommodationDTO implements Serializable {
         this.price = price;
     }
 
-    public Integer getInfoID() {
-        return infoID;
+    public Integer getAccommodationID() {
+        return accommodationID;
     }
 
-    public void setInfoID(Integer infoID) {
-        this.infoID = infoID;
+    public void setAccommodationID(Integer accommodationID) {
+        this.accommodationID = accommodationID;
     }
 
     public String getFullName() {

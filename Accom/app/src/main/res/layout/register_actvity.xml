@@ -93,6 +93,11 @@
                 android:textSize="20dip"
                 android:textColor="#025f7c"/>
 
+            <ImageView android:src="@drawable/foot_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/mid"/>
         </LinearLayout>
         <!-- Registration Form Ends -->
     </RelativeLayout>
